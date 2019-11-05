@@ -1,0 +1,33 @@
+{
+  "name": "node_backend",
+  "version": "1.0.0",
+  "description": "Node project for backend api basic strucutre",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "export NODE_ENV=development && nodemon index.js || true",
+    "prod": "export NODE_ENV=production && nodemon index.js || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhamjesh/node_project.git"
+  },
+  "author": "Amjesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singhamjesh/node_project.git"
+  },
+  "homepage": "https://github.com/singhamjesh/node_project.git#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect": "^3.7.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "mongoose": "^5.7.7",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "swagger-ui-express": "^4.1.2"
+  }
+}
